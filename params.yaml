@@ -1,0 +1,10 @@
+data:
+  raw: data/dataset_v1.csv
+  processed: data/processed.csv
+
+train:
+  target: MedHouseVal
+  models:
+    - linear
+    - random_forest
+    - gradient_boosting
